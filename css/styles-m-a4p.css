@@ -224,6 +224,17 @@ html { -webkit-tap-highlight-color: rgba(0,0,0,0); tap-highlight-color: rgba(0,0
 
 body { -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; text-size-adjust: none; }
 
+
+div, span, h1, h2 {
+ word-break: normal;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
+}
+
+
 img,
 iframe,
 video,
