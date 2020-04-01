@@ -1605,7 +1605,7 @@ body.article .site-footer { padding-top: 35px; }
 .article-title .at-content { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; position: relative; }
 
 .article-title .at-main-title { padding: 0; margin: 0 auto 38px; font-size: 30px; line-height: 1.14; font-weight: 900; text-transform: uppercase; text-align: center; }
-.article-title .at-main-title:last-child { margin-bottom: 0; }
+/*.article-title .at-main-title:last-child { margin-bottom: 0; }*/
 
 .article-title .at-publication { display: none; }
 
@@ -1813,6 +1813,10 @@ body.article .site-footer { padding-top: 35px; }
 
 .an-item-next .an-item-link .icon { right: 20px; }
 .an-item-next .an-item-link .icon:before { content: 'Article suivant'; padding-right: 26px; background-image: url(images/right-green.svg); background-position: right bottom; font-family: inherit; text-align: right; }
+
+
+html[lang='en'] .an-item-previous .an-item-link .icon:before { content: 'Previous article'; }
+html[lang='en'] .an-item-next .an-item-link .icon:before { content: 'Next article'; }
 
 .an-item-illust { width: 100%; max-width: 100%; -webkit-transition: -webkit-transform .3s; transition: -webkit-transform .3s; -o-transition: transform .3s; transition: transform .3s; transition: transform .3s, -webkit-transform .3s; }
 
