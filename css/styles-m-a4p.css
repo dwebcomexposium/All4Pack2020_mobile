@@ -580,6 +580,9 @@ body.front .is-stuck.site-banner { padding: 31px 0 0; }
 .site-banner .gsf-fields .gsf-input::-ms-input-placeholder { font-size: inherit !important; font-weight: inherit !important; color: #fff !important; font-style: normal !important; opacity: 1; }
 .site-banner .gsf-fields .gsf-input::placeholder { font-size: inherit !important; font-weight: inherit !important; color: #fff !important; font-style: normal !important; opacity: 1; }
 
+.site-banner .gsf-input-line.is-focused { background: #66c77b; }
+.site-banner .gsf-input-line.is-focused .gsf-input { background: #66c77b; }
+
 .site-banner .gsf-submit-line { position: absolute; top: 50%; right: 10px; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); display: block; }
 .site-banner .gsf-submit-btn { min-height: auto; height: auto; padding: 3px 30px 5px 11px; border-radius: 15px; background: #fff url(images/arrow-right.png) right 8px top 7px no-repeat !important; background-size: 16px 13px !important; font-family: 'AttractiveCond', sans-serif; font-size: 16px; line-height: 1.2; color: #003239; font-weight: 800; }
 
@@ -1420,6 +1423,8 @@ body.front .is-stuck.site-banner { padding: 31px 0 0; }
 .nf-form-submit .btn-primary .icon { display: none; }
 
 .hide-label .nf-form-item label { display: none; }
+
+.nf-result { position: absolute; font-size: 12px; left: 20px; bottom: -17px; }
 
 /* ------------------------------------------------------------ *\
     Socials
