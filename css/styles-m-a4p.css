@@ -507,7 +507,10 @@ body.front .site-banner:after { content: ''; display: block; padding-top: 88.5%;
 
 body.show-nav-main .site-banner:before { opacity: .8; visibility: visible; }
 
-.header-content { position: fixed; top: 35px; right: 0; left: 0; padding: 9px 55px; background: radial-gradient(#24408a, #15265a); z-index: 150; }
+.header-content { position: fixed; top: 35px; right: 0; left: 0; padding: 9px 55px; /*background: radial-gradient(#24408a, #15265a);*/ z-index: 150; }
+
+.headroom--not-top .header-content { background: radial-gradient(#24408a, #15265a);  }
+
 .header-content:before { content: ''; position: absolute; top: 0; bottom: 0; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); width: 120vw; background: -o-radial-gradient(#24408a, #15265a); background: radial-gradient(#24408a, #15265a); opacity: 0; visibility: hidden; pointer-events: none; transition: background .2s; }
 .header-content.lang-switcher-opened { z-index: 160; }
 
@@ -846,7 +849,7 @@ body.front .is-stuck.site-banner { padding: 31px 0 0; }
     Lien1
 \* ------------------------------------------------------------ */
 
-.lien1 { position: relative; z-index: 5; display: inline-block; min-width: 100px; padding: 11px 31px; border: 0; border-radius: 30px; background: #5ead6f; font-family: 'AttractiveCond', sans-serif; font-size: 18px; line-height: 1.23; color: #fff; font-weight: 800; letter-spacing: .03em; text-transform: uppercase; text-decoration: none; overflow: hidden; text-align: center; }
+.lien1 { position: relative; z-index: 5; display: inline-block; min-width: 100px; padding: 11px 31px; border: 0; border-radius: 30px; background: #5ead6f; font-family: 'AttractiveCond', sans-serif; font-size: 18px; line-height: 1.23; color: #fff; font-weight: 800; letter-spacing: .03em; text-transform: uppercase; text-decoration: none; overflow: hidden; text-align: center; margin-bottom: 12px; }
 .lien1:before { content: ''; position: absolute; top: 0; bottom: 0; left: 0; display: block; width: 0%; background: #243746; opacity: 0; -webkit-transition: all .3s; -o-transition: all .3s; transition: all .3s; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
 .lien1 span { position: relative; z-index: 5; }
 
@@ -908,6 +911,9 @@ body.front .is-stuck.site-banner { padding: 31px 0 0; }
 
 .link-read-more:focus:before,
 .link-read-more:hover:before { width: 100%; opacity: 1; }
+
+.edito.offre {  text-align: center; }
+
 
 /* ------------------------------------------------------------ *\
     Button Primary
@@ -1387,7 +1393,7 @@ body.front .is-stuck.site-banner { padding: 31px 0 0; }
 
 .network ul.style1 { padding: 0; margin-bottom: 14px; list-style: none; font-family: 'AttractiveCond', sans-serif; font-size: 18px; line-height: 1.4; color: #5EAD6F; font-weight: normal; text-transform: uppercase; text-align: center; }
 .network ul.style1:last-child { margin-bottom: 0; }
-.network ul.style1 li { display: inline-block; }
+.network ul.style1 li { display: inline-block; padding: 0 5px; }
 .network ul.style1 a { text-decoration: none; }
 .network ul.style1 a:hover { color: #18274E; }
 
@@ -1653,7 +1659,7 @@ body.article .site-footer { padding-top: 35px; }
 
 .article-content h2:first-child { margin-top: 0; }
 .article-content h2:last-child { margin-bottom: 0; }
-.article-content h4 { margin: 16px 0 18px; font-size: 22px; line-height: 1.3; }
+.article-content h4 { margin: 16px 0 18px; font-size: 14px; line-height: 1.3; }
 .article-content h4:first-child { margin-top: 0; }
 .article-content h4:last-child { margin-bottom: 0; }
 .article-content p { margin-bottom: 25px; }
@@ -1793,7 +1799,7 @@ body.article .site-footer { padding-top: 35px; }
 .social-sharing .inside { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-wrap: wrap; flex-wrap: wrap; width: 100%; }
 .social-sharing .inside .inside { padding: 0; }
 
-.sr-title { margin-right: 10px; font-family: 'AttractiveCond', sans-serif; font-size: 18px; line-height: 1.23; color: #152345; font-weight: 800; text-transform: uppercase; }
+.sr-title { font-family: 'AttractiveCond', sans-serif; font-size: 18px; line-height: 1.23; color: #152345; font-weight: 800; text-transform: uppercase;  margin: 15px }
 .sr-title:last-child { margin-right: 0; }
 
 .sr-list { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: -5px !important; }
