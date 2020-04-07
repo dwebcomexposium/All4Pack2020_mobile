@@ -1745,7 +1745,7 @@ body.article .site-footer { padding-top: 35px; }
 
 .block-page.faq { padding: 30px 0; }
 
-.faq-summary { display: none !important; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 0 0 48px; border: 0; margin: 0; }
+.faq-summary {/* display: none !important;*/ display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 0 0 48px; border: 0; margin: 0; }
 .fs-item { padding: 0 15px; }
 .fs-item + .fs-item { margin-top: 0; }
 
@@ -2172,9 +2172,12 @@ body.faq .site-banner { padding-bottom: 0; }
 .block-page.faq {padding-bottom: 30px; }
 .block-page.faq a {color: #1c294b; }
 .block-page.faq h2, .search-result h2 { font-family: 'Gotham', sans-serif;  margin: 30px 0 9px; font-weight: 700; font-size: 20px; color: #5ead6f; text-transform: uppercase; letter-spacing: .025em; line-height: 1.25; text-align: left; border: 0; clear: both; }
-.block-page.faq div.faq-sub-title {font-size: 17px; text-transform: uppercase; line-height: 1.28; font-weight: 400; letter-spacing: 0.1em; color: #18274E; }
-.block-page.faq ol.faq-summary.js-sna-menu {padding: 0; border: 0; margin-bottom: 40px; }
+.block-page.faq div.faq-sub-title {font-size: 17px; text-transform: uppercase; line-height: 1.28; font-weight: 400; letter-spacing: 0.1em; color: #18274E; text-align: center; }
+.block-page.faq ol.faq-summary.js-sna-menu {padding: 0; border: 0; }
 .block-page.faq a.fc-item-link.js-sna-item-link {font-size: 16px; text-transform: uppercase; font-weight: 800; line-height: 1.2; letter-spacing: 0; }
+.block-page.faq li.fs-item {margin: 0; padding: 0 7px 0; }
+.block-page.faq ol.faq-summary.js-sna-menu a {border-radius: 20px; margin: 0 0 12px 0;}
+
 .block-page.faq i.icon.icon-plus {color: #5ead6f; padding-bottom: 5px; }
 .block-page.faq i.icon.icon-minus { color: #5ead6f;  padding-bottom: 5px; padding-right: 5px; }
 .block-page.faq .fc-item.js-sna-item {border: 0;  }
