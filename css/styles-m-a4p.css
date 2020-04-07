@@ -2033,7 +2033,7 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 .mod-catal .form-datepicker .icon-datepiker .icon { color: #1c294b; }
 .mod-catal .esf-form-zone, .mod-catal .evsf-form-zone {background: transparent; border-radius: 4px; border: none; padding-bottom: 30px; }
 .mod-catal .esf-search-plus, .mod-catal .evsf-search-plus {bottom: -7rem; }
-.mod-catal .esf-intro-title, .mod-catal .evsf-intro-title {text-transform: uppercase; font-family: 'Gotham', sans-serif;  }
+.mod-catal .esf-intro-title, .mod-catal .evsf-intro-title {text-transform: uppercase; font-family: 'Gotham', sans-serif;  text-align: center; color: #1c294b; }
 .mod-catal .esf-as-header .esf-as-title, .mod-catal .evsf-as-header .evsf-as-title { font-weight: normal; background: transparent; color: #1c294b; height: 30px; }
 .esf-advanced-search, .evsf-advanced-search { margin-top: 0; padding-top: 0; }
 .mod-catal .esf-as-header .esf-as-title:after, .mod-catal .esf-as-header .esf-as-title:before, .mod-catal .evsf-as-header .evsf-as-title:after, .mod-catal .evsf-as-header .evsf-as-title:before{ background: #1c294b;}
@@ -2047,11 +2047,7 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 .mod-catal.exhibitor-search-form a, .mod-catal .catal-ex-item-stand-item .icon-catal, .mod-catal .catal-ex-item-brand:before, .mod-catal .catal-ex-item-brand:before, .mod-catal .catal-ex-item-cat-iconitem .icon-catal  {color: #5ead6f; }
 .pagination .icon-catal { color: #1c294b; }
 .mod-catal .btn-primary:focus, .mod-catal .btn-primary:hover, .mod-catal .btn-primary:active { background-color: #1c294b; border-color: #1c294b; color: #fff!important; }
-
-
 .mod-catal .catal-ex-item-img  {  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07); border: 0; width: 80px; border-radius: 15px; padding: 10px; margin-right: 20px; }
-
-
 
 /* detail */
 #return-to-result, .mod-catal .edito a.mobile_previous_exhibitor, .mod-catal .edito a.mobile_next_exhibitor {display: none; }
@@ -2134,7 +2130,7 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 }
 
 .page-events .site-wrapper, .catalogue .site-wrapper  { max-width: 960px; }
-.mod-catal h2, .mod-catal .h2-like { border: 0; padding-top: 20px; padding-bottom: 0!important; color: #1c294b!important; font-family: 'barlow'; font-weight: 500; }
+.mod-catal h2, .mod-catal .h2-like { border: 0; padding-top: 20px; padding-bottom: 0!important; color: #1c294b!important; font-family: 'Gotham'; font-weight: 700; }
 .page-events .list-articles { padding-bottom: 15px; border: 0; }
 .mod-catal .evd-infos {border: 0; margin:0; padding:15px 20px; margin: 20px 10px; background:#fff; border-radius: 20px; box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07); }
 .mod-catal .evd-title, .mod-catal .evd-slider-cover .catal-ex-item-buttons-small {border: 0; }
