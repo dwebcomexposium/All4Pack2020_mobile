@@ -1575,7 +1575,7 @@ body.article_list .list-articles .link-read-more:hover:after { right: -5px; back
     Pagination
 \* ------------------------------------------------------------ */
 
-.pagination { display: none !important; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 40px 0; border: 0; margin: 0; font-family: 'Gotham', sans-serif; font-size: 24px; line-height: 1.22; font-weight: 900; letter-spacing: .03em; text-transform: uppercase; }
+.pagination { /*display: none !important; */display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 40px 0; border: 0; margin: 0; font-family: 'Gotham', sans-serif; font-size: 24px; line-height: 1.22; font-weight: 900; letter-spacing: .03em; text-transform: uppercase; }
 .pagination a { padding: 5px 10px; color: inherit; text-decoration: none; }
 
 .pagin-item.is-active a { background: none; color: inherit; }
@@ -2171,10 +2171,12 @@ div.block.block-page.sitemap {padding-bottom: 5px; }
 body.faq .site-banner { padding-bottom: 0; }
 .block-page.faq {padding-bottom: 30px; }
 .block-page.faq a {color: #1c294b; }
-.block-page.faq h2, .search-result h2 { font-family: 'Gotham', sans-serif;  margin: 30px 0 9px; font-weight: 700; font-size: 20px; color: #5ead6f; text-transform: uppercase; letter-spacing: .025em; line-height: 1.25; text-align: left; border: 0; clear: both; }
+.block-page.faq h2 { font-family: 'Gotham', sans-serif;  margin: 30px 0 20px; font-weight: 900; font-size: 23px; color: #18274E; text-transform: uppercase; letter-spacing: .025em; line-height: 1.25; text-align: left; border: 0; clear: both; }
+
+.search-result h2 { font-family: 'Gotham', sans-serif;  margin: 30px 0 9px; font-weight: 700; font-size: 20px; color: #5ead6f; text-transform: uppercase; letter-spacing: .025em; line-height: 1.25; text-align: left; border: 0; clear: both; }
 .block-page.faq div.faq-sub-title {font-size: 17px; text-transform: uppercase; line-height: 1.28; font-weight: 400; letter-spacing: 0.1em; color: #18274E; text-align: center; }
 .block-page.faq ol.faq-summary.js-sna-menu {padding: 0; border: 0; }
-.block-page.faq a.fc-item-link.js-sna-item-link {font-size: 16px; text-transform: uppercase; font-weight: 800; line-height: 1.2; letter-spacing: 0; }
+.block-page.faq a.fc-item-link.js-sna-item-link {font-size: 16px; line-height: 1.4; color: #18274E; letter-spacing: 0; border-top: 1px solid #d7d7d7; }
 .block-page.faq li.fs-item {margin: 0; padding: 0 7px 0; }
 .block-page.faq ol.faq-summary.js-sna-menu a {border-radius: 20px; margin: 0 0 12px 0;}
 
@@ -2192,7 +2194,7 @@ body.faq .site-banner { padding-bottom: 0; }
 }
 
 
-.block-page.faq span.fc-item-nb { background: none;font-weight: 300; text-align: center; color: #5ead6f; margin-right: 2px; }
+.block-page.faq span.fc-item-nb { background: none;font-weight: 900; text-align: center; color: #18274E; margin-right: 2px; }
 .block-page.faq p {font-weight: 400; margin: 0; letter-spacing: 0; color: #18274E; font-size: 14px; padding-top: 10px; }
 .block-page.faq span.fs-item-nb  {font-weight: 300; background: none; color: #1c294b; }
 .block-page.faq h3 { letter-spacing: 0.05em; margin: 0; }
