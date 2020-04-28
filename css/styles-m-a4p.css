@@ -1326,7 +1326,10 @@ body.front .is-stuck.site-banner { padding: 31px 0 0; }
     Partner
 \* ------------------------------------------------------------ */
 
-.block-page.partner { position: relative; padding: 54px 0 132px; background: #F1F1F1; text-align: left !important; }
+.block-page.partner { position: relative; padding: 54px 0 25px; background: #F1F1F1; text-align: left !important; }
+
+.partlink { padding: 10px 0 60px; background: #F1F1F1; text-align: center; }
+
 .block-page.partner .main-title-with-link { margin-bottom: 21px; }
 .block-page.partner .main-title-with-link:last-child { margin-bottom: 0; }
 .block-page.partner .main-title-with-link > .main-title { float: none; }
