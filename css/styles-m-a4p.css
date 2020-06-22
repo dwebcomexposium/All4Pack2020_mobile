@@ -2289,3 +2289,4 @@ body.partner .block-page.partner-list .inside { padding-top: 20px; }
 
 /*div*/
 .breadcrumb-nav { display: none;  }
+.front .block-page .focus1+.focus1 a.externe.lien1 {background-color: #e26c5b; }
