@@ -2300,10 +2300,10 @@ body.partner .block-page.partner-list .inside { padding-top: 20px; }
     Profil alt
 \* ------------------------------------------------------------ */
 
-.profil { padding: 70px 0; margin-top: 30px; }
-.profil .inside { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; color: #152345; align-items: center; text-align: center; }
+.profil { padding: 30px 0; margin-top: 30px; }
+.profil .inside { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; -ms-flex-wrap: wrap; flex-wrap: wrap; color: #152345; align-items: center; }
 
-.profil .inside .block-content { text-align: center; margin: 0 auto; padding: 40px 20px; }
+.profil .inside .block-content { margin: 0 auto; padding: 40px 20px; }
 
 
 .profil .inside:before { content: ''; display: block; width: 300px; height: 300px; background: url(images/all4pack-report-2022-fr.jpg) center no-repeat; background-size: cover; margin: 0 auto; }
