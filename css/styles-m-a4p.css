@@ -2153,6 +2153,18 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 
 
 
+.mod-catal i.icon-catal:before { color: #fff; }
+
+.evd-content { float: left; }
+.mod-catal .evd-desc .evd-desc-title { font-size: 30px; text-transform: uppercase; display: none; }
+
+.page-events .block-pub { padding:  0; }
+.page-events .evd-desc.evd-group  {display: flex; flex-direction: column; padding: 0; margin: 0 0 50px; }
+
+
+.mod-catal .evd-infos-theme .evd-infos-theme-list {display: block; }
+
+
 /*Sitemap*/
 .sitemap .site-banner { padding-bottom: 0; }
 
