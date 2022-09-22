@@ -2162,7 +2162,8 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 .page-events .evd-desc.evd-group  {display: flex; flex-direction: column; padding: 0; margin: 0 0 50px; }
 
 
-.mod-catal .evd-infos-theme .evd-infos-theme-list {display: block; }
+.mod-catal .evd-infos-theme .evd-infos-theme-list, .evd-infos-type-list {display: block; }
+.page-events .mod-catal :not(.gm-style) img {max-width: 180px; }
 
 
 /*Sitemap*/
