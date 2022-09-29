@@ -174,16 +174,7 @@
   -webkit-transform: scale(1.6);
           transform: scale(1.6);
 }
-.mod-catal .catal-ex-item-buttons .animation-txt,
-.mod-catal .catal-ex-item-buttons-small .animation-txt {
-  position: absolute !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  padding: 0 !important;
-  overflow: hidden !important;
-  clip: rect(1px, 1px, 1px, 1px) !important;
-}
+
 .mod-catal .catal-ex-item-buttons-small [class^="btn"] {
   padding: 0.4em 1em;
 }
