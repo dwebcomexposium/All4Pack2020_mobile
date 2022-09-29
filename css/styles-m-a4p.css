@@ -2306,6 +2306,10 @@ body.partner .block-page.partner-list .inside { padding-top: 20px; }
 .front .block-page .focus1+.focus1 a.lien1, .site-banner .quicklinks.mobile li:last-child .btn-primary { background-color: #e26c5b; }
 
 
+.mod-catal .catal-ex-item-buttons-small .animation-txt {padding-left: 10px; font-size: 10px; }
+.mod-catal .evd-title, .mod-catal .evd-slider-cover .catal-ex-item-buttons-small {align-content: space-between; gap: 10px;}
+
+.mod-catal .evd-slider-cover .catal-ex-item-buttons-small .btn-primary {line-height: 1; }
 
 
 
@@ -2323,3 +2327,4 @@ body.partner .block-page.partner-list .inside { padding-top: 20px; }
 .profil .block-content { width: 600px; padding-left: 60px; }
 
 html:lang(en) .profil .inside:before { background: url(images/all4pack-report-2022-en.jpg) center no-repeat; }
+
