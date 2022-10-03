@@ -1992,7 +1992,7 @@ body.catalogue {font-family: 'Gotham', sans-serif;  }
 
 .mod-catal .btn-primary { border-color: #5ead6f; border-radius: 50px; }
 .catalogue.mod-catal a:hover, .mod-catal a:focus, .mod-catal a:active, .mod-catal a { color: #5ead6f; }
-.mod-catal .main-title-with-link > .main-title, .mod-catal h1, .mod-catal .h1-like, .mod-catal h2, .mod-catal .h2-like, .mod-catal .form-nav, span.tt-suggest-text, strong.tt-highlight, .tt-suggestion p a, .typeahead-section-name  { color: #1c294b; }
+.mod-catal .main-title-with-link > .main-title, .mod-catal h1, .mod-catal .h1-like, .mod-catal h2, .mod-catal .h2-like, .mod-catal .form-nav, span.tt-suggest-text, strong.tt-highlight, .tt-suggestion p a, .typeahead-section-name  { color: #1c294b; text-transform: none; }
 
 /* My selection */
 .mod-catal .block-title.mysel-title {margin-top: 1px; border: 0; padding: 5px 20px; }
@@ -2042,7 +2042,7 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 .mod-catal .esf-as-header .esf-as-title:after, .mod-catal .esf-as-header .esf-as-title:before, .mod-catal .evsf-as-header .evsf-as-title:after, .mod-catal .evsf-as-header .evsf-as-title:before{ background: #1c294b;}
 .mod-catal.exhibitor-search-form button:hover, .mod-catal.exhibitor-search-form input[type="submit"]:hover, .mod-catal.exhibitor-search-form button:focus, .mod-catal.exhibitor-search-form input[type="submit"]:focus { background: transparent; }
 .mod-catal .catal-ex-item-title {font-size: 23px; text-transform: uppercase; font-weight: 300; letter-spacing: 1px; color:#1c294b; }
-.mod-catal .catal-ex-item-title a:hover, .mod-catal .catal-ex-item-title a, .mod-catal .evl-event .evl-event-title a {color:#5ead6f; font-family: 'Gotham', sans-serif; font-weight: 300; font-size: 23px; }
+.mod-catal .catal-ex-item-title a:hover, .mod-catal .catal-ex-item-title a, .mod-catal .evl-event .evl-event-title a {color:#5ead6f; font-family: 'Gotham', sans-serif; font-weight: 500; font-size: 13px;  }
 .mod-catal.is-premium h3.catal-ex-item-title a {color:#5ead6f!important;font-weight: 700;font-size: 23px;}
 .mod-catal .form-select { border: 0!important; }
 .catal-ex-item.mod-catal {padding: 20px 0; border-bottom:#f7d5f8; border-bottom: 1px solid #f7f7f8; }
@@ -2346,7 +2346,7 @@ html:lang(en) .profil .inside:before { background: url(images/all4pack-report-20
 	padding-left: 10px!important;
 }
 
-.page-events .mod-catal .btn-primary:focus, .mod-catal .btn-primary:hover, .mod-catal .btn-primary:active { /*right: 0; margin-top: 30px!important; padding-top: 30px; */}
+
 
 /*.page-events .mod-catal.catal-nav-ex .catal-nav-ex-search-new { padding-top: 10px; text-align: right!important; }*/
 .page-events .mod-catal.catal-nav-ex {
@@ -2356,4 +2356,16 @@ html:lang(en) .profil .inside:before { background: url(images/all4pack-report-20
 
 body.catalogue h1, body.page-events h1 { padding: 0; margin: 0 auto 38px; font-size: 30px; line-height: 1.14; font-weight: 900; text-transform: none; text-align: center; border: 0; color: #fff; }
 
+
+#event_result_zone .evl-event .catal-ex-item-buttons-small .btn-primary { max-width: 20px; line-height: 1; text-align: center; }
+
 .evsf-as-title { display: none; }
+
+#event_result_zone .mod-catal .js-mySelection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#event_result_zone .mod-catal .js-mySelection[data-action="add"] .selection-empty .animation-txt {padding: 0!important; }
