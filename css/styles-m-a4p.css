@@ -2049,7 +2049,7 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 .mod-catal .catal-ex-item-buttons, .mod-catal .catal-ex-item-buttons-small { border-left: 0; }
 .mod-catal.exhibitor-search-form a, .mod-catal .catal-ex-item-stand-item .icon-catal, .mod-catal .catal-ex-item-brand:before, .mod-catal .catal-ex-item-brand:before, .mod-catal .catal-ex-item-cat-iconitem .icon-catal  {color: #5ead6f; }
 .pagination .icon-catal { color: #1c294b; }
-.mod-catal .btn-primary:focus, .mod-catal .btn-primary:hover, .mod-catal .btn-primary:active { background-color: #1c294b; border-color: #1c294b; color: #fff!important; }
+.mod-catal .btn-primary:focus, .mod-catal .btn-primary:hover, .mod-catal .btn-primary:active { background-color: #1c294b; border-color: #1c294b; color: #ffffff!important; }
 .mod-catal .catal-ex-item-img  {  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.07); border: 0; width: 80px; border-radius: 15px; padding: 10px; margin-right: 20px; }
 
 /* detail */
@@ -2163,7 +2163,9 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 
 
 .mod-catal .evd-infos-theme .evd-infos-theme-list, .evd-infos-type-list {display: block; }
-.page-events .mod-catal :not(.gm-style) img {max-width: 180px; }
+.page-events .mod-catal :not(.gm-style) img {max-width: 140px;  }
+
+
 
 
 /*Sitemap*/
@@ -2328,3 +2330,30 @@ body.partner .block-page.partner-list .inside { padding-top: 20px; }
 
 html:lang(en) .profil .inside:before { background: url(images/all4pack-report-2022-en.jpg) center no-repeat; }
 
+.page-events .pagin-next i,
+.page-events .pagin-prev i { background: none; }
+.page-events .mod-catal .pagin-item i.icon-catal:before, .mod-catal.catal-nav-ex .catal-nav-ex-more-link {color: #5ead6f; padding-top: 15px; }
+.page-events .list-articles :not(.gm-style) img {max-width: 100%;  }
+.page-events .mod-catal.catal-nav-ex {display: block; }
+.page-events .mod-catal .catal-ex-item-buttons .animation-txt, .mod-catal .catal-ex-item-buttons-small .animation-txt {
+    position: relative!important;
+    border: 0!important;
+    height: auto!important;
+    width: auto!important;
+    padding: 0!important;
+    overflow: visible!important;
+    clip: unset!important;
+	padding-left: 10px!important;
+}
+
+.page-events .mod-catal .btn-primary:focus, .mod-catal .btn-primary:hover, .mod-catal .btn-primary:active { /*right: 0; margin-top: 30px!important; padding-top: 30px; */}
+
+/*.page-events .mod-catal.catal-nav-ex .catal-nav-ex-search-new { padding-top: 10px; text-align: right!important; }*/
+.page-events .mod-catal.catal-nav-ex {
+    display: flex;
+    justify-content: space-between;
+}
+
+body.catalogue h1, body.page-events h1 { padding: 0; margin: 0 auto 38px; font-size: 30px; line-height: 1.14; font-weight: 900; text-transform: none; text-align: center; border: 0; color: #fff; }
+
+.evsf-as-title { display: none; }
