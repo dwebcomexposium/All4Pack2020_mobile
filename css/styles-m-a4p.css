@@ -2325,10 +2325,10 @@ body.partner .block-page.partner-list .inside { padding-top: 20px; }
 .profil .inside .block-content { margin: 0 auto; padding: 40px 20px; }
 
 
-.profil .inside:before { content: ''; display: block; width: 300px; height: 300px; background: url(images/all4pack-report-2022-fr.jpg) center no-repeat; background-size: cover; margin: 0 auto; }
+.profil .inside:before { content: ''; display: block; width: 300px; height: 300px; background: url(images/lead-the-revolution.jpg) center no-repeat; background-size: cover; margin: 0 auto; }
 .profil .block-content { width: 600px; padding-left: 60px; }
 
-html:lang(en) .profil .inside:before { background: url(images/all4pack-report-2022-en.jpg) center no-repeat; }
+/*html:lang(en) .profil .inside:before { background: url(images/all4pack-report-2022-en.jpg) center no-repeat; }*/
 
 .page-events .pagin-next i,
 .page-events .pagin-prev i { background: none; }
